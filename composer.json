@@ -1,0 +1,22 @@
+{
+    "name": "lixunguan/qiniu",
+    "description": "laravel qiniu sdk",
+    "keywords": ["sdk", "cloud storage", "api", "qiniu", "laravel"],
+    "authors": [
+        {
+            "name": "LiXunGuan",
+            "email": "183517940@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*",
+        "guzzlehttp/guzzle": "4.2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Lixunguan\\Qiniu": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
